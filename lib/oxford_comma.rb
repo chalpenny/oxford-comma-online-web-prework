@@ -10,8 +10,7 @@ def oxford_comma(array)
   #convert an array into a string, using commas to separate
   # ONLY IF there are more than 3 elements in the array
 else
-  array.join(", ")
-  array.insert(-2, "and ")
+  array.join(", ") >> (-2, "and ")
 
   end
 end
