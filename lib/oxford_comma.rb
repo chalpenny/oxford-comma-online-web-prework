@@ -4,7 +4,7 @@ def oxford_comma(array)
     array.join
   #if there are 2+ elements, push the word "and" in the posiition second to last
   elsif array.count == 2
-      array.insert(-2, "and")
+      array.insert(-2, " and ")
       array.join
 
   #convert an array into a string, using commas to separate
