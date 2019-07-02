@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.count == 2
       array.insert(-2, "and")
       array.join
-      
+
   #convert an array into a string, using commas to separate
   # ONLY IF there are more than 3 elements in the array
 else
