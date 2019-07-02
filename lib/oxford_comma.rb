@@ -11,7 +11,7 @@ def oxford_comma(array)
   # ONLY IF there are more than 3 elements in the array
 else
   array.join(", ")
-  #  array.insert(-2, "and")
+  array.insert(-2, "and")
 
   end
 end
